@@ -6,3 +6,10 @@ lazy val root = (project in file("."))
   .settings(
     name := "IG5_FP_Project"
   )
+
+
+libraryDependencies ++= Seq(
+  "org.mongodb.scala" %% "mongo-scala-driver" % "4.3.1",
+  "com.typesafe.play" %% "play-json" % "2.9.2"
+)
+
