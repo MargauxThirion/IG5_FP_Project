@@ -1,7 +1,3 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ...
-[warn] 
-[warn] 	Note: Unresolved dependencies path:
 [error] sbt.librarymanagement.ResolveException: Error downloading neo4j-contrib:neo4j-spark-connector:4.0.1
 [error]   Not found
 [error]   Not found
@@ -35,7 +31,7 @@
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
-[error] (update) sbt.librarymanagement.ResolveException: Error downloading neo4j-contrib:neo4j-spark-connector:4.0.1
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading neo4j-contrib:neo4j-spark-connector:4.0.1
 [error]   Not found
 [error]   Not found
 [error]   not found: C:\Users\thiri\.ivy2\localneo4j-contrib\neo4j-spark-connector\4.0.1\ivys\ivy.xml
